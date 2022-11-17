@@ -56,7 +56,7 @@ async function plotMap(){
         "Buses":buses
     }
 
-    L.control.layers(null, overlays,{}).addTo(map);
+    L.control.layers(null, overlays).addTo(map);
     taxis.addTo(map);
 }
 
